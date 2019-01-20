@@ -1,0 +1,9 @@
+
+
+
+10.	Implemente los casos de prueba de #1 a #5 en WebDriver. 
+Describa brevemente los cambios principales que ha tenido que 
+hacer al código exportado por Selemium IDE (si es que ha habido alguno).
+
+
+- Todos los casos de prueba (del 1 al 9) han sido realizados utilizando WebDriver.

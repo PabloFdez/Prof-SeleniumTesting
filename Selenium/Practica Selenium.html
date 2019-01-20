@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Practica Selenium</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test1</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in<datalist><option>link=Sign in</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/preceding::a[1]</option><option>//a[contains(text(),'Sign in')]</option><option>//header[@id='header']/div[2]/div/div/nav/div/a</option><option>//a[@href='http://automationpractice.com/index.php?controller=my-account']</option><option>//nav/div/a</option><option>css=a.login</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::div[3]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Authentication'])[2]/following::div[5]</option><option>//form[@id='create-account_form']/div/div[2]</option><option>//form/div/div[2]</option><option>css=div.form-group</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=email_create<datalist><option>id=email_create</option><option>name=email_create</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::input[3]</option><option>//input[@id='email_create']</option><option>//form[@id='create-account_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#email_create</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=email_create<datalist><option>id=email_create</option><option>name=email_create</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::input[3]</option><option>//input[@id='email_create']</option><option>//form[@id='create-account_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#email_create</option></datalist></td><td>esto@es@un@email@invalido</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[2]/preceding::span[1]</option><option>//button[@id='SubmitCreate']/span</option><option>//div[3]/button/span</option><option>css=#SubmitCreate &gt; span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in<datalist><option>link=Sign in</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/preceding::a[1]</option><option>//a[contains(text(),'Sign in')]</option><option>//header[@id='header']/div[2]/div/div/nav/div/a</option><option>//a[@href='http://automationpractice.com/index.php?controller=my-account']</option><option>//nav/div/a</option><option>css=a.login</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=email_create<datalist><option>id=email_create</option><option>name=email_create</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::input[3]</option><option>//input[@id='email_create']</option><option>//form[@id='create-account_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#email_create</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=email_create<datalist><option>id=email_create</option><option>name=email_create</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::input[3]</option><option>//input[@id='email_create']</option><option>//form[@id='create-account_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#email_create</option></datalist></td><td>estoesun@email.com</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[2]/preceding::span[1]</option><option>//button[@id='SubmitCreate']/span</option><option>//div[3]/button/span</option><option>css=#SubmitCreate &gt; span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test3</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td>blouse</td>
+</tr>
+<tr><td>click</td><td>name=submit_search<datalist><option>name=submit_search</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::button[1]</option><option>//button[@name='submit_search']</option><option>//form[@id='searchbox']/button</option><option>//button</option><option>css=button[name="submit_search"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$27.00'])[2]/following::a[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$27.00'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Quick view'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$27.00'])[3]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/preceding::a[1]</option><option>xpath=(//a[contains(text(),'Blouse')])[4]</option><option>//div[@id='center_column']/ul/li/div/div[2]/h5/a</option><option>xpath=(//a[@href='http://automationpractice.com/index.php?id_product=2&amp;controller=product&amp;search_query=blouse&amp;results=1'])[4]</option><option>//div[2]/h5/a</option><option>css=div.right-block &gt; h5 &gt; a.product-name</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test4</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td>car</td>
+</tr>
+<tr><td>click</td><td>name=submit_search<datalist><option>name=submit_search</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::button[1]</option><option>//button[@name='submit_search']</option><option>//form[@id='searchbox']/button</option><option>//button</option><option>css=button[name="submit_search"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Blouse'])[2]/following::p[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Blouse'])[2]/following::p[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Newsletter'])[1]/preceding::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::p[1]</option><option>//div[@id='center_column']/p</option><option>//div[2]/p</option><option>css=p.alert.alert-warning</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test5</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td>beige</td>
+</tr>
+<tr><td>click</td><td>name=submit_search<datalist><option>name=submit_search</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::button[1]</option><option>//button[@name='submit_search']</option><option>//form[@id='searchbox']/button</option><option>//button</option><option>css=button[name="submit_search"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 - 1 of 1 item'])[1]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 - 1 of 1 item'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$50.99'])[2]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Printed Dress'])[3]/preceding::span[2]</option><option>//div[@id='center_column']/ul/li/div/div/div/a[2]/span</option><option>//a[2]/span</option><option>css=a.quick-view &gt; span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test6</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in<datalist><option>link=Sign in</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/preceding::a[1]</option><option>//a[contains(text(),'Sign in')]</option><option>//header[@id='header']/div[2]/div/div/nav/div/a</option><option>//a[@href='http://automationpractice.com/index.php?controller=my-account']</option><option>//nav/div/a</option><option>css=a.login</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=email_create<datalist><option>id=email_create</option><option>name=email_create</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::input[3]</option><option>//input[@id='email_create']</option><option>//form[@id='create-account_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#email_create</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=email_create<datalist><option>id=email_create</option><option>name=email_create</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::input[3]</option><option>//input[@id='email_create']</option><option>//form[@id='create-account_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#email_create</option></datalist></td><td>estoesun@email.com</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[2]/preceding::span[1]</option><option>//button[@id='SubmitCreate']/span</option><option>//div[3]/button/span</option><option>css=#SubmitCreate &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=id_gender1<datalist><option>id=id_gender1</option><option>name=id_gender</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::input[1]</option><option>//input[@id='id_gender1']</option><option>//div[@id='uniform-id_gender1']/span/input</option><option>//span/input</option><option>css=#id_gender1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=customer_firstname<datalist><option>id=customer_firstname</option><option>name=customer_firstname</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::input[1]</option><option>//input[@id='customer_firstname']</option><option>//form[@id='account-creation_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#customer_firstname</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//form[@id='account-creation_form']/div/div[2]<datalist><option>//form[@id='account-creation_form']/div/div[2]</option><option>//form/div/div[2]</option><option>css=div.required.form-group.form-error</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test7</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in<datalist><option>link=Sign in</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/preceding::a[1]</option><option>//a[contains(text(),'Sign in')]</option><option>//header[@id='header']/div[2]/div/div/nav/div/a</option><option>//a[@href='http://automationpractice.com/index.php?controller=my-account']</option><option>//nav/div/a</option><option>css=a.login</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=email_create<datalist><option>id=email_create</option><option>name=email_create</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::input[3]</option><option>//input[@id='email_create']</option><option>//form[@id='create-account_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#email_create</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=email_create<datalist><option>id=email_create</option><option>name=email_create</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::input[3]</option><option>//input[@id='email_create']</option><option>//form[@id='create-account_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#email_create</option></datalist></td><td>estoesun@email.com</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[2]/preceding::span[1]</option><option>//button[@id='SubmitCreate']/span</option><option>//div[3]/button/span</option><option>css=#SubmitCreate &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>doubleClick</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Already registered?'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[2]/preceding::span[1]</option><option>//button[@id='SubmitCreate']/span</option><option>//div[3]/button/span</option><option>css=#SubmitCreate &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=id_gender1<datalist><option>id=id_gender1</option><option>name=id_gender</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::input[1]</option><option>//input[@id='id_gender1']</option><option>//div[@id='uniform-id_gender1']/span/input</option><option>//span/input</option><option>css=#id_gender1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=customer_firstname<datalist><option>id=customer_firstname</option><option>name=customer_firstname</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::input[1]</option><option>//input[@id='customer_firstname']</option><option>//form[@id='account-creation_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#customer_firstname</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=customer_firstname<datalist><option>id=customer_firstname</option><option>name=customer_firstname</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::input[1]</option><option>//input[@id='customer_firstname']</option><option>//form[@id='account-creation_form']/div/div[2]/input</option><option>//div[2]/input</option><option>css=#customer_firstname</option></datalist></td><td>Pablo</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[1]</option><option>//form[@id='account-creation_form']/div/div[3]</option><option>//form/div/div[3]</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test8</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td>blouse</td>
+</tr>
+<tr><td>click</td><td>name=submit_search<datalist><option>name=submit_search</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::button[1]</option><option>//button[@name='submit_search']</option><option>//form[@id='searchbox']/button</option><option>//button</option><option>css=button[name="submit_search"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$27.00'])[3]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$27.00'])[3]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Blouse'])[3]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/preceding::span[1]</option><option>//div[@id='center_column']/ul/li/div/div[2]/div[2]/a/span</option><option>//div[2]/a/span</option><option>css=a.button.ajax_add_to_cart_button.btn.btn-default &gt; span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test9</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=search_query_top<datalist><option>id=search_query_top</option><option>name=search_query</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::input[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::input[1]</option><option>//input[@id='search_query_top']</option><option>//form[@id='searchbox']/input[4]</option><option>//input[4]</option><option>css=#search_query_top</option></datalist></td><td>Dress</td>
+</tr>
+<tr><td>click</td><td>name=submit_search<datalist><option>name=submit_search</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::button[1]</option><option>//button[@name='submit_search']</option><option>//form[@id='searchbox']/button</option><option>//button</option><option>css=button[name="submit_search"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$26.00'])[3]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$26.00'])[3]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Printed Dress'])[5]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[5]/preceding::span[1]</option><option>//div[@id='center_column']/ul/li[5]/div/div[2]/div[2]/a/span</option><option>//li[5]/div/div[2]/div[2]/a/span</option><option>css=li.ajax_block_product.col-xs-12.col-sm-6.col-md-4.first-item-of-tablet-line.hovered &gt; div.product-container &gt; div.right-block &gt; div.button-container &gt; a.button.ajax_add_to_cart_button.btn.btn-default &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$55.00'])[2]/following::span[3]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$55.00'])[2]/following::span[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Women'])[1]/preceding::span[1]</option><option>//div[@id='layer_cart']/div/div[2]/div[4]/a/span</option><option>//div[4]/a/span</option><option>css=a.btn.btn-default.button.button-medium &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$27.00'])[3]/following::i[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$27.00'])[3]/following::i[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$27.00'])[2]/following::i[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Printed Dress'])[3]/preceding::i[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='SKU : demo_3'])[1]/preceding::i[1]</option><option>//a[@id='2_7_0_0']/i</option><option>//td[7]/div/a/i</option><option>css=i.icon-trash</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$26.00'])[6]/following::i[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$26.00'])[6]/following::i[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='$26.00'])[5]/following::i[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Proceed to checkout'])[2]/preceding::i[1]</option><option>//a[@id='3_13_0_0']/i</option><option>//td[7]/div/a/i</option><option>css=i.icon-trash</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
